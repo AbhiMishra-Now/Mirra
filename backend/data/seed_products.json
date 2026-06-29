@@ -1,0 +1,352 @@
+[
+  {
+    "asin": "B08XWP27W2",
+    "name": "Zara Floral Summer Dress",
+    "category": "dresses",
+    "sub_category": "dress",
+    "price": 1899,
+    "rating": 4.5,
+    "image_url": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600",
+    "description": "Flowy, lightweight summer dress with vibrant floral prints."
+  },
+  {
+    "asin": "B08XWP28X3",
+    "name": "H&M Black Evening Gown",
+    "category": "dresses",
+    "sub_category": "dress",
+    "price": 2999,
+    "rating": 4.7,
+    "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600",
+    "description": "Elegant off-shoulder black gown with draped silhouette."
+  },
+  {
+    "asin": "B08XWP29Y4",
+    "name": "Mango Floral Printed Dress",
+    "category": "dresses",
+    "sub_category": "dress",
+    "price": 2499,
+    "rating": 4.4,
+    "image_url": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600",
+    "description": "Soft yellow slip midi dress printed with wild garden blooms."
+  },
+  {
+    "asin": "B08XWP30Z5",
+    "name": "FabIndia Cotton Anarkali Dress",
+    "category": "dresses",
+    "sub_category": "dress",
+    "price": 3499,
+    "rating": 4.6,
+    "image_url": "https://images.unsplash.com/photo-1618932260643-eee4a2f6c916?w=600",
+    "description": "Traditional cotton flared Anarkali kurta in rich hand-blocked print."
+  },
+  {
+    "asin": "B08XWP31A6",
+    "name": "Biba Traditional A-Line Dress",
+    "category": "dresses",
+    "sub_category": "dress",
+    "price": 2199,
+    "rating": 4.3,
+    "image_url": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=600",
+    "description": "Casual flared ethnic summer dress in pastel lilac fabric."
+  },
+  {
+    "asin": "B08XWP32B7",
+    "name": "Mango White Blouse",
+    "category": "clothing",
+    "sub_category": "shirt",
+    "price": 1299,
+    "rating": 4.2,
+    "image_url": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=600",
+    "description": "Elegant formal white button-down linen blouse."
+  },
+  {
+    "asin": "B08XWP33C8",
+    "name": "Forever21 Crop Top",
+    "category": "clothing",
+    "sub_category": "shirt",
+    "price": 899,
+    "rating": 4.0,
+    "image_url": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=600",
+    "description": "Trendy ribbed knit cotton crop top in lilac."
+  },
+  {
+    "asin": "B08XWP34D9",
+    "name": "Zara Casual Denim Shirt",
+    "category": "clothing",
+    "sub_category": "shirt",
+    "price": 1999,
+    "rating": 4.3,
+    "image_url": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=600",
+    "description": "Classic wash indigo denim shirt, perfect for casual layering."
+  },
+  {
+    "asin": "B08XWP35E0",
+    "name": "H&M Oversized Fleece Hoodie",
+    "category": "clothing",
+    "sub_category": "shirt",
+    "price": 1799,
+    "rating": 4.5,
+    "image_url": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600",
+    "description": "Oversized cotton fleece hoodie in deep charcoal gray."
+  },
+  {
+    "asin": "B08XWP35E1",
+    "name": "Levi's Graphic Tee",
+    "category": "clothing",
+    "sub_category": "shirt",
+    "price": 999,
+    "rating": 4.1,
+    "image_url": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=600",
+    "description": "Soft cotton graphic print tee with signature logo."
+  },
+  {
+    "asin": "B08XWP35P1",
+    "name": "Levi's 501 Original Jeans",
+    "category": "pants",
+    "sub_category": "pants",
+    "price": 3299,
+    "rating": 4.6,
+    "image_url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600",
+    "description": "Iconic straight-fit blue denim jeans with button fly."
+  },
+  {
+    "asin": "B08XWP35P2",
+    "name": "Zara High-Waist Trousers",
+    "category": "pants",
+    "sub_category": "pants",
+    "price": 2799,
+    "rating": 4.4,
+    "image_url": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=600",
+    "description": "Elegant wide-leg high-waist trousers in black."
+  },
+  {
+    "asin": "B08XWP35P3",
+    "name": "H&M Cotton Jogger Pants",
+    "category": "pants",
+    "sub_category": "pants",
+    "price": 1499,
+    "rating": 4.2,
+    "image_url": "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600",
+    "description": "Comfortable elastic-waist joggers in heather gray."
+  },
+  {
+    "asin": "B08XWP35P4",
+    "name": "Mango Cargo Utility Pants",
+    "category": "pants",
+    "sub_category": "pants",
+    "price": 2499,
+    "rating": 4.3,
+    "image_url": "https://images.unsplash.com/photo-1517423568366-8b83523034fd?w=600",
+    "description": "Relaxed utility cargo trousers with side pocket detail."
+  },
+  {
+    "asin": "B08XWP35P5",
+    "name": "Only Slim Fit Black Chinos",
+    "category": "pants",
+    "sub_category": "pants",
+    "price": 1899,
+    "rating": 4.1,
+    "image_url": "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=600",
+    "description": "Casual slim stretch chinos, ideal for work and weekends."
+  },
+  {
+    "asin": "B08XWP36F1",
+    "name": "Ray-Ban Aviator Sunglasses",
+    "category": "eyewear",
+    "sub_category": "glasses",
+    "price": 8999,
+    "rating": 4.8,
+    "image_url": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600",
+    "description": "Gold-rimmed premium aviator sunglasses with polaroid lenses."
+  },
+  {
+    "asin": "B08XWP36F2",
+    "name": "Oakley Frogskins Sunglasses",
+    "category": "eyewear",
+    "sub_category": "glasses",
+    "price": 6499,
+    "rating": 4.5,
+    "image_url": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600",
+    "description": "Retro keyhole-bridge sports sunglasses in classic black."
+  },
+  {
+    "asin": "B08XWP36F3",
+    "name": "Prada Cat-Eye Sunglasses",
+    "category": "eyewear",
+    "sub_category": "glasses",
+    "price": 14999,
+    "rating": 4.7,
+    "image_url": "https://images.unsplash.com/photo-1508296695146-257a814070b4?w=600",
+    "description": "Designer tortoise-shell cat-eye glasses with gold logo details."
+  },
+  {
+    "asin": "B08XWP36F4",
+    "name": "Fastrack Active Wayfarer",
+    "category": "eyewear",
+    "sub_category": "glasses",
+    "price": 1599,
+    "rating": 4.2,
+    "image_url": "https://images.unsplash.com/photo-1625591339768-450f7572718f?w=600",
+    "description": "Sporty lightweight active wear wayfarer sunglasses."
+  },
+  {
+    "asin": "B08XWP36F5",
+    "name": "Vogue Square Metal Goggles",
+    "category": "eyewear",
+    "sub_category": "glasses",
+    "price": 4299,
+    "rating": 4.4,
+    "image_url": "https://images.unsplash.com/photo-1577803645773-f96470509666?w=600",
+    "description": "Trendy oversized metal wire square frame sunglasses."
+  },
+  {
+    "asin": "B08XWP37G2",
+    "name": "Straw Panama Beach Hat",
+    "category": "accessories",
+    "sub_category": "hat",
+    "price": 1499,
+    "rating": 4.2,
+    "image_url": "https://images.unsplash.com/photo-1533827432537-70133748f5c8?w=600",
+    "description": "Lightweight straw sun hat decorated with a black ribbon band."
+  },
+  {
+    "asin": "B08XWP37G3",
+    "name": "Adidas Classic Baseball Cap",
+    "category": "accessories",
+    "sub_category": "hat",
+    "price": 999,
+    "rating": 4.5,
+    "image_url": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=600",
+    "description": "Adjustable cotton twill sports cap with embroidered logo."
+  },
+  {
+    "asin": "B08XWP37G4",
+    "name": "Carhartt Knit Winter Beanie",
+    "category": "accessories",
+    "sub_category": "hat",
+    "price": 1299,
+    "rating": 4.6,
+    "image_url": "https://images.unsplash.com/photo-1576871337622-98d48d4aa53e?w=600",
+    "description": "Warm ribbed knit winter beanie with fold-up cuff."
+  },
+  {
+    "asin": "B08XWP37G5",
+    "name": "Zara Wool Fedora Hat",
+    "category": "accessories",
+    "sub_category": "hat",
+    "price": 2499,
+    "rating": 4.3,
+    "image_url": "https://images.unsplash.com/photo-1514327605112-b887c0e61c0a?w=600",
+    "description": "Structured wool felt fedora hat with wide brim."
+  },
+  {
+    "asin": "B08XWP37G6",
+    "name": "H&M French Wool Beret",
+    "category": "accessories",
+    "sub_category": "hat",
+    "price": 1199,
+    "rating": 4.1,
+    "image_url": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600",
+    "description": "Classic Parisian style wool beret hat in crimson."
+  },
+  {
+    "asin": "B08XWP38H3",
+    "name": "Elegant Gold Hoop Earrings",
+    "category": "jewelry",
+    "sub_category": "earrings",
+    "price": 2499,
+    "rating": 4.6,
+    "image_url": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=600",
+    "description": "18k gold-plated hoop earrings with smooth polish finish."
+  },
+  {
+    "asin": "B08XWP39I4",
+    "name": "Classic Silver Chain Necklace",
+    "category": "jewelry",
+    "sub_category": "necklace",
+    "price": 3299,
+    "rating": 4.5,
+    "image_url": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=600",
+    "description": "Delicate sterling silver chain with a sparkling diamond pendant."
+  },
+  {
+    "asin": "B08XWP39I5",
+    "name": "Giva Pearl Stud Earrings",
+    "category": "jewelry",
+    "sub_category": "earrings",
+    "price": 1799,
+    "rating": 4.4,
+    "image_url": "https://images.unsplash.com/photo-1590548784585-645d2b09e377?w=600",
+    "description": "Freshwater round pearl studs with sterling silver posts."
+  },
+  {
+    "asin": "B08XWP39I6",
+    "name": "Mango Layered Gold Choker",
+    "category": "jewelry",
+    "sub_category": "necklace",
+    "price": 1499,
+    "rating": 4.2,
+    "image_url": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=600",
+    "description": "Layered gold link chain choker with coin pendant."
+  },
+  {
+    "asin": "B08XWP39I7",
+    "name": "Zara Emerald Drops Earrings",
+    "category": "jewelry",
+    "sub_category": "earrings",
+    "price": 2999,
+    "rating": 4.6,
+    "image_url": "https://images.unsplash.com/photo-1630019852942-f89202989a59?w=600",
+    "description": "Statement drop earrings featuring rich green emerald crystals."
+  },
+  {
+    "asin": "B08XWP40M1",
+    "name": "Ruby Glow Liquid Lipstick",
+    "category": "makeup",
+    "sub_category": "makeup",
+    "price": 799,
+    "rating": 4.5,
+    "image_url": "https://images.unsplash.com/photo-1586495777744-4413f21062fa?w=600",
+    "description": "Vibrant Classic Red matte liquid lipstick, smudge-proof."
+  },
+  {
+    "asin": "B08XWP40M2",
+    "name": "Soft Rose Satin Lipstick",
+    "category": "makeup",
+    "sub_category": "makeup",
+    "price": 699,
+    "rating": 4.3,
+    "image_url": "https://images.unsplash.com/photo-1625093742435-6fa192b6fb10?w=600",
+    "description": "Hydrating Soft Rose pink lipstick with satin smooth finish."
+  },
+  {
+    "asin": "B08XWP40M3",
+    "name": "Coral Sunset Powder Blush",
+    "category": "makeup",
+    "sub_category": "makeup",
+    "price": 999,
+    "rating": 4.4,
+    "image_url": "https://images.unsplash.com/photo-1631730359575-38e4755d772b?w=600",
+    "description": "Warm Coral Pink blush powder, blendable and pigmented."
+  },
+  {
+    "asin": "B08XWP40M4",
+    "name": "Beige Glow Satin Foundation",
+    "category": "makeup",
+    "sub_category": "makeup",
+    "price": 1499,
+    "rating": 4.6,
+    "image_url": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=600",
+    "description": "Medium Sand Beige foundation with skin-smoothing tint."
+  },
+  {
+    "asin": "B08XWP40M5",
+    "name": "Golden Tan Warm Foundation",
+    "category": "makeup",
+    "sub_category": "makeup",
+    "price": 1499,
+    "rating": 4.5,
+    "image_url": "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=600",
+    "description": "Deep Golden Tan foundation shade for warm skin undertones."
+  }
+]
