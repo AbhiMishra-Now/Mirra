@@ -140,7 +140,8 @@ export default function StudioDashboard() {
     const fetchCatalog = async () => {
       setIsLoadingProducts(true);
       try {
-        const response = await fetch("http://localhost:8000/api/products?keyword=fashion&limit=40");
+        const backendUrl = process.env.NEXT_PUBLIC_BACKEND_API_URL || "http://localhost:8000";
+        const response = await fetch(`${backendUrl}/api/products?keyword=fashion&limit=40`);
         if (response.ok) {
           const data = await response.json();
           setProductsCatalog(data);
@@ -262,7 +263,8 @@ export default function StudioDashboard() {
 
     try {
       const token = await getToken();
-      const response = await fetch("http://localhost:8000/api/generate-tryon", {
+      const backendUrl = process.env.NEXT_PUBLIC_BACKEND_API_URL || "http://localhost:8000";
+      const response = await fetch(`${backendUrl}/api/generate-tryon`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -302,7 +304,8 @@ export default function StudioDashboard() {
   const handleGenerateRating = async (person: string, garment: string, result: string) => {
     setIsRating(true);
     try {
-      const response = await fetch("http://localhost:8000/api/rate-outfit", {
+      const backendUrl = process.env.NEXT_PUBLIC_BACKEND_API_URL || "http://localhost:8000";
+      const response = await fetch(`${backendUrl}/api/rate-outfit`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

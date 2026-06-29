@@ -35,7 +35,8 @@ export default function CreatorHistory() {
       }
       try {
         const token = await getToken();
-        const response = await fetch("http://localhost:8000/api/user/history", {
+        const backendUrl = process.env.NEXT_PUBLIC_BACKEND_API_URL || "http://localhost:8000";
+        const response = await fetch(`${backendUrl}/api/user/history`, {
           method: "GET",
           headers: {
             "Authorization": `Bearer ${token}`,
