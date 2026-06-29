@@ -25,7 +25,7 @@ def main():
     # Download pre-compiled Linux wheels to guarantee compatibility with AWS Lambda Environment
     pip_cmd = [
         sys.executable, "-m", "pip", "install",
-        "--platform", "manylinux2014_x86_64",
+        "--platform", "manylinux2014_aarch64",
         "--only-binary=:all:",
         "-r", str(backend_dir / "requirements.txt"),
         "-t", str(dist_dir)
