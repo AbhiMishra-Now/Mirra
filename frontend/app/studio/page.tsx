@@ -1400,5 +1400,45 @@ const offlineFallbackProducts: Product[] = [
     image: "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=600",
     affiliateLink: "https://www.amazon.in/dp/B08XWP40M5?tag=mirra0a-21",
     description: "Deep Golden Tan foundation shade for warm skin undertones."
+  },
+  {
+    id: "B08XWP_LINEN",
+    name: "Premium White Linen Shirt",
+    category: "clothing",
+    sub_category: "shirt",
+    price: 1499,
+    image: "/assets/shirts/white-linen-shirt.png",
+    affiliateLink: "https://www.amazon.in/dp/B08XWP_LINEN?tag=mirra0a-21",
+    description: "Breathable, premium short-sleeve white linen shirt with single chest pocket."
+  },
+  {
+    id: "B08XWP_POLO",
+    name: "Classic Navy Blue Polo Shirt",
+    category: "clothing",
+    sub_category: "shirt",
+    price: 1199,
+    image: "/assets/shirts/navy-polo-shirt.png",
+    affiliateLink: "https://www.amazon.in/dp/B08XWP_POLO?tag=mirra0a-21",
+    description: "Structured navy blue pique cotton polo shirt with two-button placket."
+  },
+  {
+    id: "B08XWP_FLANNEL",
+    name: "Red & Black Checked Flannel Shirt",
+    category: "clothing",
+    sub_category: "shirt",
+    price: 1699,
+    image: "/assets/shirts/red-flannel-shirt.png",
+    affiliateLink: "https://www.amazon.in/dp/B08XWP_FLANNEL?tag=mirra0a-21",
+    description: "Cozy, mid-weight brushed cotton flannel shirt in classic buffalo check pattern."
+  },
+  {
+    id: "B08XWP_OXFORD",
+    name: "Light Blue Long-Sleeve Oxford Shirt",
+    category: "clothing",
+    sub_category: "shirt",
+    price: 1899,
+    image: "/assets/shirts/blue-oxford-shirt.png",
+    affiliateLink: "https://www.amazon.in/dp/B08XWP_OXFORD?tag=mirra0a-21",
+    description: "Tailored light blue button-down Oxford cotton shirt with buttoned cuffs."
   }
 ];

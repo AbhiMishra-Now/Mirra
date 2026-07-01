@@ -42,9 +42,16 @@ async def trigger_tryon(
     Triggers visual try-on with Replicate services.
     """
     try:
+        # Resolve relative asset URLs (e.g. /assets/shirts/...) to absolute paths for Replicate
+        garment_url = payload.garment_image_url
+        if garment_url.startswith("/"):
+            import os
+            frontend_url = os.getenv("FRONTEND_URL", "https://mirra-sigma.vercel.app")
+            garment_url = f"{frontend_url.rstrip('/')}{garment_url}"
+
         result = generate_tryon(
             person_image_url=payload.person_image_url,
-            garment_image_url=payload.garment_image_url,
+            garment_image_url=garment_url,
             garment_type=payload.garment_type
         )
         
