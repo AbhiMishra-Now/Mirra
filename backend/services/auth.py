@@ -17,14 +17,25 @@ CLERK_JWKS_URL = os.getenv("CLERK_JWKS_URL", "https://api.clerk.com/v1/jwks")
 security = HTTPBearer()
 
 class ClerkJWTValidator:
-    def __init__(self, jwks_url: str):
-        self.jwks_url = jwks_url
-        self.jwks_client = jwt.PyJWKClient(jwks_url)
+    def __init__(self, default_jwks_url: str):
+        self.default_jwks_url = default_jwks_url
+        self.clients = {}
 
     def validate(self, token: str) -> dict:
         try:
-            # Fetches the JWKS public signing key matching the token's kid header
-            signing_key = self.jwks_client.get_signing_key_from_jwt(token)
+            # Decode payload without verification first to get the issuer (iss)
+            unverified = jwt.decode(token, options={"verify_signature": False})
+            issuer = unverified.get("iss")
+            if not issuer:
+                raise jwt.InvalidTokenError("Missing issuer (iss) claim in token")
+            
+            # Construct the correct public JWKS endpoint for this Clerk instance
+            jwks_url = f"{issuer.rstrip('/')}/.well-known/jwks.json"
+            if jwks_url not in self.clients:
+                self.clients[jwks_url] = jwt.PyJWKClient(jwks_url)
+            
+            jwks_client = self.clients[jwks_url]
+            signing_key = jwks_client.get_signing_key_from_jwt(token)
             
             # Verify and decode RS256 signature
             payload = jwt.decode(
